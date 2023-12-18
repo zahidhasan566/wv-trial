@@ -110,7 +110,6 @@ body {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   color: #fff;
-  padding: 8px 32px;
   border-radius: 12px;
   background: #021F68;
   border: 1px solid #021F68 !important;
@@ -283,7 +282,7 @@ body {
   border-radius: 16px;
 }
 .testimonial .carousel {
-  padding: 100px 0 30px;
+  padding: 100px 0 100px;
 }
 .testimonial .carousel-single {
   background: #fff;
@@ -331,7 +330,7 @@ body {
 }
 
 .compare {
-  padding: 100px 0;
+  padding-bottom: 100px;
   position: relative;
   z-index: 1;
 }
@@ -501,6 +500,13 @@ body {
 .contact .c-group {
   line-height: 0.5em;
 }
+.contactSingleRight{
+  background: #ffffff;
+  margin-top: -80px;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 20px;
+  border: none;
+}
 
 .contact .card {
   border: none !important;
@@ -585,3 +591,13 @@ footer .single {
     margin-top: 16px !important;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
