@@ -43,6 +43,7 @@ body {
 
 .btn-padding {
   padding: 10px 22px !important;
+  border-radius: 5px !important;
 }
 
 .header .navbar-nav .dropdown-toggle {
@@ -126,7 +127,7 @@ body {
 
 .section-title h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
   color: #4FCBFF;
   padding: 0 40px;
@@ -145,7 +146,7 @@ body {
 }
 .section-title h4 {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
   color: #4FCBFF;
   position: relative;
@@ -165,7 +166,7 @@ body {
 .section-title h3 {
   color: var(--sa-title, #1B2729);
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 48px;
   font-weight: 700;
 }
 
@@ -182,10 +183,10 @@ body {
 }
 
 .addition .service-price {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400 !important;
   font-size: 14px !important;
-  color: #5D6DA9 !important;
+  color: #a0aacf !important;
 }
 
 .service .col-md-4 {
@@ -194,14 +195,14 @@ body {
 .service .col-md-4:not(:last-child):before {
   content: url(../images/arrow.png);
   position: absolute;
-  top: 50px;
+  top: 30px;
   right: 0;
 }
 .service .col-md-4:nth-child(even)::before {
   content: url(../images/yellow-arrow.png);
 }
 .service .single {
-  margin-top: 45px;
+  margin-top: 30px;
   text-align: center;
   padding: 0 30px 15px;
   position: relative;
@@ -531,7 +532,7 @@ body {
   background: #ffffff;
   margin-top: -80px;
   padding: 50px;
-  box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 23px;
   border: none;
 }
 
@@ -599,7 +600,7 @@ footer .single {
 
 .book-now .after-price {
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   color: #757575;
 }
