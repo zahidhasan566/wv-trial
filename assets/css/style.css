@@ -37,10 +37,14 @@ body {
 .header .navbar-nav .nav-link {
   font-size: 14px;
   color: #fff;
-  padding: 4px 16px;
   border-radius: 5px;
   margin: 0 8px;
 }
+
+.btn-padding {
+  padding: 10px 22px !important;
+}
+
 .header .navbar-nav .dropdown-toggle {
   border: 1px solid #d5d5d5;
   border-radius: 5px;
@@ -139,6 +143,15 @@ body {
   background: #4FCBFF;
   transform: translateY(-50%);
 }
+.section-title h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #4FCBFF;
+  position: relative;
+  display: inline-block;
+}
+
 .section-title h2:after {
   content: "";
   position: absolute;
@@ -159,6 +172,7 @@ body {
 .section-title p {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
 .service {
@@ -166,6 +180,14 @@ body {
   background-size: cover;
   padding: 100px 0;
 }
+
+.addition .service-price {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: #5D6DA9 !important;
+}
+
 .service .col-md-4 {
   position: relative;
 }
@@ -179,7 +201,7 @@ body {
   content: url(../images/yellow-arrow.png);
 }
 .service .single {
-  margin-top: 50px;
+  margin-top: 45px;
   text-align: center;
   padding: 16px 30px;
   position: relative;
@@ -191,8 +213,8 @@ body {
   position: absolute;
   z-index: -1;
   top: 60px;
-  right: 20px;
-  color: rgba(79, 203, 255, 0.4901960784);
+  right: 35px;
+  color: #D0E0E7;
   font-weight: 700;
 }
 .service .single i {
@@ -255,7 +277,7 @@ body {
   box-shadow: rgb(0 0 0 / 10%) 0px 5px 15px;
   position: relative;
   z-index: 1;
-  min-height: 52%;
+  min-height: 46%;
 }
 .testimonial .single::before {
   content: url(../images/shape02.png);
@@ -297,8 +319,13 @@ body {
 .testimonial .carousel-single .icon img {
   background: #4FCBFF;
   padding: 8px;
-  border-radius: 16px;
+  border-radius: 10px;
 }
+
+.m-l-3 {
+  margin-left: 3em;
+}
+
 .testimonial .carousel-indicators {
   left: 0;
   right: 50%;
@@ -568,6 +595,13 @@ footer .single {
   font-weight: 600;
   font-size: 20px;
   color: #4FCBFF;
+}
+
+.book-now .after-price {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #757575;
 }
 
 @media (max-width: 767.98px) {
